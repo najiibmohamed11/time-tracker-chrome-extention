@@ -1,6 +1,13 @@
 # TimeWise - Website Time Tracking Extension
 
 TimeWise is a powerful Chrome extension designed to help users track and manage their time spent on various websites, with a particular focus on social media usage.
+### The Extension 
+![image](https://github.com/user-attachments/assets/19747c44-0d8f-4897-9989-7bd9deef85bf)
+### litel timer that on top of your tap
+![image](https://github.com/user-attachments/assets/5665dd8c-c1f2-4d13-8dab-e0eb763d3b46)
+### Dark 
+![image](https://github.com/user-attachments/assets/fc2f4875-3bbb-4f9e-9d29-4e17fd52a044)
+
 
 
 ### 🎯 Smart Tracking
