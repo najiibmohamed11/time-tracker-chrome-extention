@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# TimeWise - Website Time Tracking Extension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TimeWise is a powerful Chrome extension designed to help users track and manage their time spent on various websites, with a particular focus on social media usage.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🎯 Smart Tracking
+- **Social Media Tracking**: Specifically designed to track time spent on social media platforms
+- **All Sites Tracking**: Option to track time spent on any website
+- **Custom Site Addition**: Add any website to your tracking list
 
-## Expanding the ESLint configuration
+### 🎨 User Interface
+- **Dark/Light Mode**: Supports both dark and light themes with system preference detection
+- **Responsive Design**: Clean and intuitive interface
+- **Active/Inactive Toggle**: Easily enable or disable tracking
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### ⚙️ Functionality
+- **Website Management**: Add or remove websites from tracking list
+- **Favicon Integration**: Visual website identification using favicons
+- **Domain Extraction**: Smart URL parsing to extract main domains
+- **Local Storage**: Persistent storage of user preferences and settings
 
-- Configure the top-level `parserOptions` property like this:
+## Technical Stack
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- React
+- TypeScript
+- Tailwind CSS
+- Chrome Extension API
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Installation
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
 ```
